@@ -3,6 +3,14 @@ import { printOut, newLine } from "../../common/script/utils.mjs";
 
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
+
+
+
+
+
+
+
+
 printOut("Replace this with you answer!");
 printOut(newLine);
 
