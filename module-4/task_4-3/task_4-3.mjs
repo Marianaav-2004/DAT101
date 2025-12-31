@@ -62,7 +62,7 @@ function cmbTask1CalculateClick () {
 }
 
 let cmbTask1Calculate = document.getElementById("cmbTask1Calculate");
-cmbTask1Calculate.onclick = cmbTask1CalculateClick;
+cmbTask1Calculate.onclick = cmbTask1CalculateClick; 
 
 
 
