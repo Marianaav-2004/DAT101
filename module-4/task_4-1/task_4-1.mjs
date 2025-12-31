@@ -4,9 +4,9 @@ import { printOut, newLine } from "../../common/script/utils.mjs";
 
 const AccountTypes = {
   Normal: "Brukskonto",
-  Saving: "Sparekonto",
+  Saving: "Sparekonto", 
   Credit: "Kredittkonto",
-  Pensjon: "Pensjonskonto",
+  Pensjon: "Pensjonskonto", 
 };
 
 // This regards part 5! You can find this on gitHub.
