@@ -9,15 +9,15 @@ let part1Text = "";
 for (let i = 0; i < /*20*/ part1Array.length; /*1++*/ i = i + 1){
     const value = part1Array[i]; // -> Every index of part1Array 
     if (i === part1Array.length - 1) {
-        part1Text += value.toString() + ". ";
+        part1Text += value.toString() + ". "; 
     } else {
-        part1Text += value.toString() + ", ";
+        part1Text += value.toString() + ", "; 
     }
 }
 
 printOut(part1Text);
 
-printOut(newLine);
+printOut(newLine); 
 
 
 
