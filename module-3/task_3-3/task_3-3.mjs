@@ -297,15 +297,24 @@ printOut(newLine);
 printOut("--- Part 10 ---------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
 
-function factorial (n){ 
-    if (n<0) return NaN; 
-    if (n === 0) return 1; 
-    return n * factorial (n - 1); 
+function factorial(n) {
+    // Guard invalid input: non-integer or negative -> NaN
+    if (typeof n !== "number" || !Number.isInteger(n) || n < 0) return NaN;
+
+    // Iterative implementation avoids recursion limits
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
 }
 
-const testValue = [0,1,2,3,4,5,6]; 
-for (let v of testValue) {
-    printOut (v + "! = " + factorial (v)); 
+// Example usage: print a few values using printOut (not console.log)
+for (let number = 0; number <= 10; number++) {
+    printOut(`Factorial of ${number} = ${factorial(number)}`);
 }
+
+
+
 
 printOut(newLine);
