@@ -19,7 +19,7 @@ function NorwegianDate() {
         formatted = formatted.charAt(0).toUpperCase() + formatted.slice(1);
     }
 
-    return formatted;
+    return formatted; 
 }
 
 printOut(NorwegianDate());
