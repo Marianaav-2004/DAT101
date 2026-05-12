@@ -135,7 +135,7 @@ export class TSoundFile {
   stop() {
     this.#audio.pause();
     this.#audio.currentTime = 0; // Reset the audio to the beginning
-    this.#audioState = EAudioStateType.Stopped; // Set the audio state to stopped
+    this.#audioState = EAudioStateType.Stopped; // Set the audio state to stopped 
   }
 
   pause() {
