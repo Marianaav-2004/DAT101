@@ -12,6 +12,8 @@ export class TGameSounds {
         this.#deadSound = new TSoundFile ("./media/dead.mp3"); 
         this.#musicSound = new TSoundFile ("./media/music.mp3"); 
         this.#musicSound.loop = true; // Set the music to loop continuously 
+        // here the music is not looping since there is more to related to the libSound so it just to be left like this, but i edited the 
+        // audio for it to be repetitive anyways, since the loop is not able to be used. 
     }
 
     startMusic() {
